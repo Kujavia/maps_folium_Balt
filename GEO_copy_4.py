@@ -2275,7 +2275,7 @@ folium.Circle(location=(54.8515905031916, 58.4154794365168),
               fill=True
               ).add_to(m)
 
-folium.Circle(location=(),
+folium.Circle(location=(55.1460328472505, 61.3925745338202),
               radius=1500,
               popup='зона показателей ++',
               color='blue',
@@ -2288,5 +2288,4 @@ folium.Circle(location=(55.2046192, 61.2833212),
               color='blue',
               fill=True
               ).add_to(m)
-m.save('baltica14.html')
-55.2046192, 61.2833212
+m.save('index.html')
